@@ -1,0 +1,31 @@
+{
+  "name": "parcel-template-basic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html --port 1214",
+    "build": "build index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-static-files-copy": "^2.6.0",
+    "sass": "^1.68.0"
+  },
+  "staticFiles": {
+    "staticPath": "static"
+  },
+  "dependencies": {
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.22.20",
+    "postcss": "^8.4.31"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 3 versions"
+  ]
+}
